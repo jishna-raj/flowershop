@@ -36,6 +36,10 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+#sample{
+    background-color: rgb(17, 17, 17,.5);
+    height: 120vh;
+}
 .welcome{
     padding-top: 20%;
     padding-left: 5%;
@@ -50,9 +54,8 @@ body{
     .nav-item i{display: none;}
 }
 .work{ 
-    padding-left: 3%;
+    padding-left: 3%; 
     /* padding-bottom: 3%; */
-    background-image: url(./images/plain.jpeg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -61,7 +64,8 @@ body{
 }
 .work h1{
     
-    padding-top: 6% ;padding-bottom: 3%;
+    padding-top: 6% ;
+    padding-bottom: 3%;
 }
 .work p{
     font-size: 20px;
@@ -71,6 +75,9 @@ body{
 .view{
     color: var(--brown);
     border-color: var(--brown);
+    
+    
+
 }
 .view:hover{
     
